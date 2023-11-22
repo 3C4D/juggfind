@@ -1,9 +1,7 @@
-// Hash thread functions prototypes
+#ifndef HASH_THREAD_H_
+#define HASH_THREAD_H_
 
-#ifndef HASH_THREAD_H
-#define HASH_THREAD_H
-
-// Hash thread routine
+// Hash finding tread routine
 void *ht_run(void *args);
 
 #endif
